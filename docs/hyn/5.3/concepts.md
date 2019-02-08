@@ -41,7 +41,7 @@ matching hostname or falls back to the default one.
 By default, the package will identify the current requested hostname and bind it
 into the `Hyn\Tenancy\Contracts\CurrentHostname` contract. In case that hostname belongs to
 a website, the latter will be bound into the `Hyn\Tenancy\Contracts\Tenant` contract. Whenever
-a Tenant is identified or switched the package will automatically infuse additional functionality
+a Tenant is identified or switched, the package will automatically infuse additional functionality
 into Laravel, including [global tenant routes][routes], [tenant overrides][directory-structure] 
 and [queues][queues].
 
